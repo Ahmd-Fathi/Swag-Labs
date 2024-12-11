@@ -1,0 +1,7 @@
+Pages\CheckoutOverviewPage.class
+Pages\inventoryPage.class
+AbstractComponents\AbstractComponent.class
+Pages\CartPage.class
+Pages\InformationCheckOutPage.class
+Pages\LoginPage.class
+Resources\AllureReport.class

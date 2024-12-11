@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="false">
+    <listeners>
+        <listener class-name="Base.Listeners"></listener>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="Test Suite 1">
+
+        <!-- Groups section to include tests in 'error handling' group -->
+        <groups>
+            <run>
+                <include name="error handling"/>
+            </run>
+        </groups>
+
+        <!-- Test classes -->
+        <classes>
+            <class name="TestCases.AddProductWithAllUserNamesTest"/>
+        </classes>
+    </test>
+
+</suite>

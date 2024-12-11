@@ -1,0 +1,5 @@
+# Created at 2024-12-11T11:44:40.846
+Boot Manifest-JAR contains absolute paths in classpath 'E:\IDE\intellij\IdeaProjects\Swag-Labs-project\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
